@@ -6,3 +6,5 @@
 
 系級：科技115
 ## Homework
+
+[作業一](https://github.com/guanyu1127/guan/tree/main/HW_1)
