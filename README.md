@@ -7,6 +7,6 @@
 系級：科技115
 ## Homework
 
-[作業一](https://github.com/guanyu1127/guan/tree/main/HW_1)
+[作業一與影片](https://github.com/guanyu1127/guan/tree/main/HW_1)
 
-[作業二](https://github.com/guanyu1127/guan/tree/main/Hw_2)
+[作業二與影片](https://github.com/guanyu1127/guan/tree/main/Hw_2)
