@@ -8,3 +8,4 @@
 ## Homework
 
 [作業一](https://github.com/guanyu1127/guan/tree/main/HW_1)
+[作業二](https://github.com/guanyu1127/guan/tree/main/Hw_2)
