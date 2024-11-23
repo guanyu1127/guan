@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資料管理</title>
+</head>
+<body>
+    <h1>管理姓名與年齡資料</h1>
+
+    <form action="/add" method="POST">
+        <input type="text" name="name" placeholder="輸入姓名" required>
+        <input type="number" name="age" placeholder="輸入年齡" required>
+        <button type="submit">新增</button>
+    </form>
+
+    <h2>資料列表</h2>
+    <ul>
+        {% for item in data %}
+        <li>
+            <form action="/edit/{{ item._id }}" method="POST" style="display:inline;">
+                姓名: <input type="text" name="name" value="{{ item.name }}" required>
+                年齡: <input type="number" name="age" value="{{ item.age }}" required>
+                <button type="submit">保存修改</button>
+            </form>
+
+            <form action="/delete/{{ item._id }}" method="POST" style="display:inline;">
+                <button type="submit">刪除</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
