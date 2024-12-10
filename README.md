@@ -14,3 +14,5 @@
 [作業三與影片](https://github.com/guanyu1127/guan/tree/main/HW_3)
 
 [作業四與影片](https://github.com/guanyu1127/guan/tree/main/HW_4)
+
+[期末專題影片](https://youtu.be/K4nSiKfCyqo?si=cPjHqHIDQ-uM-5Np)
